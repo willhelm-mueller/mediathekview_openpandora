@@ -6,7 +6,7 @@ fi
 
 
 if [ ! -d ~/.mplayer ]; then
-	unzip ./files.zip -f
+	unzip files.zip 
 #	cp -rf setup/.[a-zA-Z0-9]* .
 fi	
 
