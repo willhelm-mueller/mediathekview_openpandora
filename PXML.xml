@@ -4,7 +4,7 @@
 
    <package id="mediathekview">
            <author name="willhelm" website="http://boards.openpandora.org/topic/17025-mediathekview/"/>
-           <version major="0" minor="2" release="0" build="1"/>
+           <version major="0" minor="2" release="1" build="0"/>
            <titles>
                    <title lang="en_US">Mediathekview</title>
            </titles>
@@ -12,6 +12,11 @@
                    <description lang="en_US">Mediathekview for OpenPandora 
 Mediathekview is a java based for wrapper for german state channels.   
 
+New in version 0.2.1.0: 
++git repository https://github.com/willhelm-mueller/mediathekview_openpandora/tree/master
++updated to latest Mediathekview (version 10 build 865)
+
+###
 New in version 0.2.0.1:
 Bugfix: adjustet maximum memory for javaVM towards 180MB
 
@@ -46,7 +51,7 @@ New in version 0.1.0.2:
 		<title lang="en_US">Mediathekview</title>
 	</titles>
     <author name="xaver_w" website="http://zdfmediathk.sourceforge.net/anleitung.html"/>
-    <version major="9" minor="0" release="7" build="2"/>	      <!--This programs version-->
+    <version major="10" minor="0" release="0" build="865"/>	      <!--This programs version-->
     <osversion major="1" minor="0" release="0" build="0"/>		<!--The minimum OS version required-->
 	<descriptions>
 		<description lang="en_US">Mediathekview
