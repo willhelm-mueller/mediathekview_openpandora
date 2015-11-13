@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [  -d ~/.mplayer ]; then	
+	java  -Xmx180m -jar ./MediathekView.jar
+fi
+
+
+if [ ! -d ~/.mplayer ]; then
+	unzip ./files.zip -f
+#	cp -rf setup/.[a-zA-Z0-9]* .
+fi	
+

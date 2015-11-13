@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PXML xmlns="http://openpandora.org/namespaces/PXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PXML_schema.xsd">
+<!-- please see http://pandorawiki.org/PXML_specification for more information before editing, and remember the order does matter -->
+
+   <package id="mediathekview">
+           <author name="willhelm" website="http://boards.openpandora.org/topic/17025-mediathekview/"/>
+           <version major="0" minor="2" release="0" build="1"/>
+           <titles>
+                   <title lang="en_US">Mediathekview</title>
+           </titles>
+           <descriptions>
+                   <description lang="en_US">Mediathekview for OpenPandora 
+Mediathekview is a java based for wrapper for german state channels.   
+
+New in version 0.2.0.1:
+Bugfix: adjustet maximum memory for javaVM towards 180MB
+
+###
+New in version 0.2.0.0:
+-updated to version 10 (Version 9.0.7.2 Mar. 13 2015)
+
+Thanks to ingoreis:
+ -added smplayer 
+ -avoid initial setup routine 
+
+###
+New in version 0.1.1.1:
+-updated to version 9 (8.877) 
+ -for changelog see: http://zdfmediathk.sourceforge.net/releases.html
+
+###
+New in version 0.1.1.0:
+-using latest mediathekview build from github (7.984)
+
+###
+New in version 0.1.0.2:
+-Description  (nicer PCML)
+ +added application information and links 
+                   </description>
+           </descriptions>
+   </package>
+
+  <application id="MediathekView" appdata="mediathekview">
+    <exec command="run"/>
+    <titles>
+		<title lang="en_US">Mediathekview</title>
+	</titles>
+    <author name="xaver_w" website="http://zdfmediathk.sourceforge.net/anleitung.html"/>
+    <version major="9" minor="0" release="7" build="2"/>	      <!--This programs version-->
+    <osversion major="1" minor="0" release="0" build="0"/>		<!--The minimum OS version required-->
+	<descriptions>
+		<description lang="en_US">Mediathekview
+###### German description
+
+Das Programm MediathekView ist eine Art Suchmaschine für Filme der Mediatheken der Öffentlich-Rechtlichen Sender. Das Programm stellt eine Liste mit Links zu den Filmen zur Verfügung.
+Es ist möglich, diese URLs an externe Programme weiterzugeben. Mit diesen Programmen können dann diese Filme angesehen oder aufgezeichnet werden. 
+
+###### /German description 
+		</description>
+	</descriptions>
+    <icon src="icon.png"/>
+
+
+    <previewpics>
+      <pic src="preview_1.png"/>
+    </previewpics>
+
+
+    <licenses>
+      <license name="GPLv3" url="http://www.gnu.org/copyleft/gpl.html" sourcecodeurl="http://www.kernel.org/default"/>
+    </licenses>
+
+    <!--<info name="MediathekView.exe documentation" type="text/plain" src="/home/willhelm/pandora/pnd/mediathekview/readme.txt"/>-->
+
+    <categories>
+      <!-- http://standards.freedesktop.org/menu-spec/latest/apa.html -->
+      <category name="Network">
+	
+      </category>
+    </categories>
+
+<!--
+    <associations>
+      <association name="Deinterlaced Bitmap Image" filetype="image/bmp" exec="-f %s"/>
+      <association name="Style sheet system crasher" filetype="text/css" exec="-f %s"/>
+    </associations>
+-->
+    <!--- <clockspeed frequency=""/> -->
+  </application>
+</PXML>
