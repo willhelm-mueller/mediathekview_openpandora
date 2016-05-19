@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [  -d ~/.mplayer ]; then	
-	java  -Xmx200m -jar ./MediathekView.jar
+	java  -Xmx250m -jar ./MediathekView.jar
 fi
 
 
