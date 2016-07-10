@@ -18,6 +18,12 @@ adjustet maximum memory for javaVM towards 250MB
 
 ###
 
+
+New in version 0.2.2.3
+adjustet maximum memory for javaVM towards 250MB
+
+###
+
 New in version 0.2.2.0
 -Bugfix: adjustet maximum memory for javaVM towards 200MB
 +updated to latest Mediathekview (version 11 build 556)
