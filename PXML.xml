@@ -4,7 +4,7 @@
 
    <package id="mediathekview">
            <author name="willhelm" website="http://boards.openpandora.org/topic/17025-mediathekview/"/>
-           <version major="0" minor="2" release="1" build="2"/>
+           <version major="0" minor="2" release="2" build="4"/>
            <titles>
                    <title lang="en_US">Mediathekview</title>
            </titles>
@@ -13,7 +13,7 @@
 Mediathekview is a java based for wrapper for german state channels.   
 
 
-New in version 0.2.2.2
+New in version 0.2.2.4
 adjustet maximum memory for javaVM towards 250MB
 
 ###
